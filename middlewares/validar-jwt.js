@@ -1,5 +1,4 @@
 const { response } = require("express");
-const { JsonWebTokenError } = require("jsonwebtoken");
 const jwt = require("jsonwebtoken");
 
 const validarJWT=(req,res=response,next)=>{

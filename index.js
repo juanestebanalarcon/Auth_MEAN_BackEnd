@@ -3,7 +3,7 @@ const cors= require('cors');
 const { dbConnection } = require('../Auth-server-back/db/config');
 require('dotenv').config();
 
-//TODO Crear servidor/app de express
+//TODO Crear servidor/app de express npm init
 const app=express();
 
 //DB connection
